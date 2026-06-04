@@ -1,0 +1,5 @@
+// For collecting date
+{{ $now.format('yyyy-MM-dd hh-mm-ss a') }}
+
+// Simple memory expression for WhatsApp
+{{ $('WhatsApp Trigger').item.json.contacts[0].wa_id }}
